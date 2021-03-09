@@ -36,7 +36,7 @@ func (ms *multiSorter) Sort(changes []Change) {
 
 // OrderedBy returns a Sorter that sorts using the less functions, in order.
 // Call its Sort method to sort the data.
-func orderedBy(less ...lessFunc) *multiSorter {
+func OrderedBy(less ...lessFunc) *multiSorter {
 	return &multiSorter{
 		less: less,
 	}
