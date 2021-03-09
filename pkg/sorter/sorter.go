@@ -1,8 +1,6 @@
 package sorter
 
-import (
-	"sort"
-)
+import "sort"
 
 //
 type Change struct {
