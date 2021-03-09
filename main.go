@@ -2,7 +2,7 @@ package main
 
 import (
     "fmt"
-     "github.com/lauraanddola/test/sorter"
+     "github.com/lauraanddola/test/pkg/sorter"
 )
 
 func main() {
