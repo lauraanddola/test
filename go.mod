@@ -1,5 +1,4 @@
-module github.com/lauraanddola/test
+module github.com/lauraanddola/test2
 
 go 1.15
-
-replace github.com/lauraanddola/test/pkg/sorter => ./sorter
+replace github.com/lauraanddola/test2/pkg/sorter  => ./sorter
