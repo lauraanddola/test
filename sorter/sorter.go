@@ -1,6 +1,10 @@
 package sorter
 
-import "sort"
+import (
+   "sort"
+   "fmt"
+)
+
 
 //
 type Change struct {
@@ -13,6 +17,9 @@ type Change struct {
 	State           string
 }
 
+func Say() {
+    fmt.Println("hihi")
+}
 type lessFunc func(p1, p2 *Change) bool
 
 // multiSorter implements the Sort interface, sorting the changes within.
